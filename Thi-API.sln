@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thi-API", "Thi-API\Thi-API.csproj", "{49C8CFBC-65F7-4F3A-A355-5D4929B00FD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49C8CFBC-65F7-4F3A-A355-5D4929B00FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C8CFBC-65F7-4F3A-A355-5D4929B00FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C8CFBC-65F7-4F3A-A355-5D4929B00FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C8CFBC-65F7-4F3A-A355-5D4929B00FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A87F53D6-865C-4E23-BC6D-626BCE87010C}
+	EndGlobalSection
+EndGlobal

@@ -1,4 +1,13 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Thi_API.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<Thi_APIContext>(options =>
+
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Thi_APIContext")));
+
 
 // Add services to the container.
 
